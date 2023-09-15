@@ -107,20 +107,7 @@ int main () {
             }
                            
 
-            // // print out every command token-by-token on individual lines
-            // // prints to cerr to avoid influencing autograder
-            // for (auto cmd : tknr.commands) {
-            //     for (auto str : cmd->args) {
-            //         cerr << "|" << str << "| ";
-            //     }
-            //     if (cmd->hasInput()) {
-            //         cerr << "in< " << cmd->in_file << " ";
-            //     }
-            //     if (cmd->hasOutput()) {
-            //         cerr << "out> " << cmd->out_file << " ";
-            //     }
-            //     cerr << endl;
-            // }
+
 
             // fork to create child
 
